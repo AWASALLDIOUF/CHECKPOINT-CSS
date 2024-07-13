@@ -1,0 +1,62 @@
+h2{
+    color: red;
+    text-align: center;
+}
+/* unvisited link */
+a:link {
+    color: blueviolet;
+}
+/* visited link */
+a:visited {
+    color: yellow;
+}
+/*mouse over link */
+a:hover {
+    color: red;
+}
+/*selected link */
+a:active {
+    color: blue;
+}
+#das{
+    width: 70px;
+    height: 50px;
+}
+.para1{
+    padding : 70px;
+    border : 2px  solid yellowgreen;
+}
+.para2{
+    margin: 70px;
+    border: 2px solid brown;
+}
+span{
+    display: block;
+    border: 4px solid blueviolet;
+    font-size: 30px;
+}
+header{
+    nav{
+        ul{
+            display:flex;
+            li{
+                margin: 30px;
+                list-style: none;
+                a{
+                    font-size: 70 px;
+                    font-family: 'Trebuchet MS';
+                }
+            }
+        }
+    }
+}
+.section1{
+    .enfant1{
+            p{
+                font-family: Impact;
+                font-size: x-large;
+                text-align: center;
+            }
+        }
+    }
+
